@@ -2,7 +2,7 @@
 
 No install script (for now, perhaps later I'll write one).
 Usually I clone this repo to `~/.config` and symlink all from
-this directory to `~/`` (ofcourse with leading `.` ). Finally I
+this directory to `~/` (ofcourse with leading `.` ). Finally I
 create symlinks for `.zshrc` and `.vimrc` from own dirs to my
 home directory.
 
