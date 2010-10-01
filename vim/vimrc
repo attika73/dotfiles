@@ -1,6 +1,8 @@
-" * General Settings
-  scriptencoding utf-8
+" First let pathogen load all bundles
   call pathogen#runtime_append_all_bundles()
+
+" General Settings
+  scriptencoding utf-8
   set nocompatible
   
   syntax on
