@@ -1,0 +1,7 @@
+# set global options for all zsh shells here
+#
+
+setopt nullglob
+
+[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
+

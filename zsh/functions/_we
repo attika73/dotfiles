@@ -1,0 +1,3 @@
+#compdef we
+
+_files -W ~/work -/

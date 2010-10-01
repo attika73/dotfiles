@@ -1,0 +1,15 @@
+# git stuff
+
+alias ga='git add .'
+alias gl='git pull'
+alias gp='git push'
+alias gd='git diff'
+alias gc='git commit'
+alias gca='git commit -a'
+alias gco='git checkout'
+alias gb='git branch'
+alias gitst='git status'
+alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+alias gg='git gui &'
+alias gitv='git log --grep="build v." --oneline --no-color'
+alias gith='cd ~/src/01_github/ && ~/bin/update && cd ~/.vim/src/github/ && ~/bin/update && cd'

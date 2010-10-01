@@ -1,0 +1,63 @@
+" * General Settings
+  scriptencoding utf-8
+  call pathogen#runtime_append_all_bundles()
+  set nocompatible
+  
+  syntax on
+  filetype on
+  filetype plugin on
+  filetype indent on
+  
+  set history=1000
+  set showmatch
+  set matchtime=0
+  set shortmess=atI
+  set ruler
+  set number
+  set showcmd
+  set noerrorbells
+  if has('autocmd')
+    autocmd GUIEnter * set vb t_vb=
+  endif
+  
+  set mouse=a
+  set t_Co=256
+
+  set sidescroll=1
+  set sidescrolloff=3
+  set scrolloff=3
+  set fdm=marker
+  set fdc=2
+
+  set printoptions=paper:a4
+ 
+" Make backspace delete lots of things
+  set backspace=indent,eol,start
+  set ts=2              " Tabs are 2 spaces
+  set bs=2              " Backspace over everything in insert mode
+  set shiftwidth=2      " Tabs under smart indent
+  set expandtab 
+  
+" Auto-backup files and .swp files don't go to pwd
+  set backupdir=~/.tmp
+  set directory=~/.tmp
+
+" Allow switching edited buffers without saving
+  set hidden
+ 
+" Look for the file in the current directory, then south until you reach home.
+  set tags=tags;~/
+  
+" Change <Leader>
+  let mapleader = ","
+ 
+" Quick timeouts on key combinations.
+"  set timeoutlen=300
+  
+" Split vimrc (more readable)
+  runtime! config/nerdtree_config.vim
+  runtime! config/mappings_config.vim
+  runtime! config/statusbar_config.vim
+  runtime! config/search_config.vim
+  runtime! config/gui_config.vim
+  

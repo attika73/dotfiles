@@ -1,0 +1,52 @@
+# other
+
+# cd
+alias ..='cd ..'
+
+# commands starting with % for pasting from web
+alias %=' '
+
+#router's current ip, dyndns
+alias myip="sh ~/bin/ipinfo.sh"
+alias mydns='sh ~/bin/dyndns.sh'
+
+#mouse
+alias mousenav='sudo lomoco -8 --sms'
+alias mousedes='sudo lomoco -4 --sms'
+
+#mpd
+alias mpd='sudo rcmpd start'
+alias mpds='sudo rcmpd stop'
+alias mpct='mpc toggle'
+alias mpcp='mpc play'
+alias mpcs='mpc stop'
+
+#vim
+#alias gvim='gvim -cNERDTreeToggle'
+
+alias nepomukcmd='sopranocmd --socket ${HOME}/.kde4/share/apps/nepomuk/socket --model main --nrl $@'
+alias chrome_dev='chromium --user-data-dir="/home/kfl62/.config/chromium_dev" &'
+
+alias monica='/home/kfl62/.monicarc && xset -dpms s off s noblank s noexpose'
+
+#mongodb
+alias mongodb='/home/kfl62/bin/mongodb/bin/mongod --dbpath=/home/kfl62/.data/db --master'
+alias mongojs='/home/kfl62/bin/mongodb/bin/mongo'
+
+#rvm
+alias rvmd='rvm use 1.9.2'
+alias rvms='rvm system'
+alias rvmgs='rvm gemset name'
+#alias rvmgu='rvm use 1.8.7 && gem update  && rvm use 1.9.1 && gem update && rvm use 1.9.2 && gem update && rvm system'
+alias rvmgu='rvm gem update'
+alias rvmgc='rvm gem clean'
+alias rvmgl='gem list'
+alias rvmgi='rvm gem install '
+alias rvmv='rvm -v | tr -s "\n" && ruby -v && echo'
+alias rvmu='rvm --head update'
+alias rvmrc='rvm --create --rvmrc use '
+
+#zypper
+alias zru='sudo zypper refresh && sudo zypper update'
+alias zps='sudo zypper ps'
+alias zdp='sudo zypper dup'

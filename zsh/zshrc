@@ -1,0 +1,10 @@
+for file in ~/.zsh/modules-enabled/*; do
+source $file
+done
+
+bindkey "^[[A" history-search-backward
+bindkey "^[[B" history-search-forward
+
+# use .localrc for settings specific to one system
+[[ -f ~/.localrc ]] && .  ~/.localrc
+

@@ -1,0 +1,6 @@
+# ls stuff
+
+alias ls="ls --color -F"
+alias l="ls -lAh"
+alias ll="ls -l"
+alias la='ls -A'

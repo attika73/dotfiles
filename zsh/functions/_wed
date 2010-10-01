@@ -1,0 +1,3 @@
+#compdef wed
+
+_files -W ~/work -/

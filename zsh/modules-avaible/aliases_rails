@@ -1,0 +1,14 @@
+# rails stuff
+
+alias sc='ruby script/console'
+alias ss='ruby script/server'
+alias sg='ruby script/generate'
+alias a='autotest -rails'
+alias tlog='tail -f log/development.log'
+alias scaffold='script/generate nifty_scaffold'
+alias migrate='rake db:migrate db:test:clone'
+alias rst='touch tmp/restart.txt'
+
+#sinatra stuff
+alias ss-arta='cd ~/work/arta-curateniei_staticmatic && rackup -s thin -p 3000'
+alias ss-trst='cd ~/work/trst_sys_sinatra && rackup -s thin -p 3000'
