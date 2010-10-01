@@ -6,9 +6,11 @@
   set nocompatible
   
   syntax on
-  filetype on
-  filetype plugin on
-  filetype indent on
+
+" Hack for pathogen... need to 'filetype off' before 
+" 'filetype plugin indent on' to force reloading.
+  filetype off
+  filetype plugin indent on
   
   set history=1000
   set showmatch
