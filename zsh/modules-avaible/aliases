@@ -50,3 +50,7 @@ alias rvmrc='rvm --create --rvmrc use '
 alias zru='sudo zypper refresh && sudo zypper update'
 alias zps='sudo zypper ps'
 alias zdp='sudo zypper dup'
+
+#vim plugins
+alias pathogen='cd ~/.config/dotfiles && git submodule update && cd'
+
