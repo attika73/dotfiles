@@ -6,6 +6,8 @@ this directory to `~/` (ofcourse with leading `.` ). Finally I
 create symlinks for `.zshrc` and `.vimrc` from own dirs to my
 home directory.
 
+    cd ~/.config
+    git clone git://github.com/kfl62/dotfiles.git
     cd ~/.config/dotfiles
     ln -s some_dir_file ~/.some_dir_file
     ln -s zsh/zshrc ~/.zshrc
