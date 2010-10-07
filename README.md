@@ -22,3 +22,7 @@ Don't forget to initialize the submodules:
     git submodule update
 
 just for first time. Later you can use `pathogen` alias for update bundled plugins
+
+Heavily inspired from [Ryan Bates dotfiles][1] :)
+
+[1]: http://github.com/ryanb/dotfiles
