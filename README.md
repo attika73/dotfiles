@@ -14,3 +14,11 @@ home directory.
     ln -s zsh/zlogin ~/.zlogin
     ln -s zsh/zshenv ~/.zshenv
     ln -s vim/vimrc ~/.vimrc
+
+Don't forget to initialize the submodules:
+
+    cd ~/.config/dotfiles
+    git submodule init
+    git submodule update
+
+just for first time. Later you can use `pathogen` alias for update bundled plugins
