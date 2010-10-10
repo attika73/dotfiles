@@ -1,5 +1,7 @@
 " First let pathogen load all bundles
+  filetype off
   call pathogen#runtime_append_all_bundles()
+  call pathogen#helptags()
 
 " General Settings
   scriptencoding utf-8
@@ -9,7 +11,6 @@
 
 " Hack for pathogen... need to 'filetype off' before 
 " 'filetype plugin indent on' to force reloading.
-  filetype off
   filetype plugin indent on
   
   set history=1000

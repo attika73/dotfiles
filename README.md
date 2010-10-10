@@ -23,6 +23,10 @@ Don't forget to initialize the submodules:
 
 just for first time. Later you can use `pathogen` alias for update bundled plugins
 
+Note:<br>
+After I introduced `call pathogen#helptags()` in my `.vimrc`, vim/gvim started to complain after `/usr/share/vim/docs/tags` file. I don't know if this is just an openSuSE issue, but `sudo touch /usr/share/vim/docs/tags && sudo chmod a+rw /usr/share/vim/docs/tags` solved the problem.
+
+
 Heavily inspired from [Ryan Bates dotfiles][1] :)
 
 [1]: http://github.com/ryanb/dotfiles
