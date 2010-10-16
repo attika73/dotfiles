@@ -12,4 +12,4 @@ alias gitst='git status'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias gg='git gui &'
 alias gitv='git log --grep="build v." --oneline --no-color'
-alias gith='cd ~/src/01_github/ && ~/bin/update && cd'
+alias gith='cd ~/src/01_github/ && ~/bin/update && cd ~/.vim/bundle && ~/bin/update && cd'
