@@ -9,7 +9,7 @@ else
 fi
 
 export EDITOR='/usr/bin/vim'
-export PATH="/home/kfl62/.gem/ruby/1.8/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/lib:$PATH"
+export PATH="/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/lib:$PATH"
 
 # rip related settings
 #export RUBYLIB="$RUBYLIB:$HOME/bin/rip/lib"
