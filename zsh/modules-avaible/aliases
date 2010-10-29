@@ -17,6 +17,8 @@ alias mousedes='sudo lomoco -4 --sms'
 #mpd
 alias mpd='sudo rcmpd start'
 alias mpds='sudo rcmpd stop'
+alias mpdd='~/bin/mpd2kopete start'
+alias mpdds='~/bin/mpd2kopete stop'
 alias mpdt='tail ~/.mpd2kopete/mpd_history.log'
 alias mpdtf='tail -f ~/.mpd2kopete/mpd_history.log'
 alias mpct='mpc toggle'
