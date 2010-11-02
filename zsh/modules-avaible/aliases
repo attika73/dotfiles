@@ -47,7 +47,7 @@ alias rvmgc='rvm gem clean'
 alias rvmgl='gem list'
 alias rvmgi='rvm gem install '
 alias rvmv='rvm -v | tr -s "\n" && ruby -v && echo'
-alias rvmu='rvm --head update'
+alias rvmu='rvm get head'
 alias rvmrc='rvm --create --rvmrc use '
 
 #zypper
