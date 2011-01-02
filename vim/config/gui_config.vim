@@ -1,7 +1,7 @@
 " Who needs .gvimrc?
   if has('gui_running')
     set encoding=utf-8
-    set guifont=Consolas\ 11
+    set guifont=Consolas\ 12
     "set guioptions+=e
     "set tb=icons
     "set guioptions-=T
